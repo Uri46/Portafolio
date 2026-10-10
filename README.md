@@ -1,7 +1,13 @@
-﻿# Portafolio Personal
-Este repositorio contiene el código fuente de mi portafolio web personal, desarrollado con HTML, CSS y JavaScript.
+# Portafolio Profesional
 
-En este portafolio destaco mis proyectos, experiencia, educación y habilidades como desarrollador Python y analista de sistemas.
+Portafolio profesional de Héctor Uriel Fernández Taño, Analista de Sistemas y Desarrollador Python / Django Jr.
 
-## Vista Previa
-Puedes visitar el portafolio publicado en: [https://uri46.github.io/Portaforio/](https://uri46.github.io/Portaforio/)
+- **Sitio web:** [https://uri46.github.io/Portaforio/](https://uri46.github.io/Portaforio/)
+
+## Proyectos
+
+1. **Sistema de Gestión Académica (SGA)**: [https://github.com/Uri46/sga-isft-188-public](https://github.com/Uri46/sga-isft-188-public)
+2. **Calculadora Científica**: [https://github.com/Uri46/calculadora-cientifica](https://github.com/Uri46/calculadora-cientifica)
+3. **Laberinto Python**: [https://github.com/Uri46/Laberinto_Python](https://github.com/Uri46/Laberinto_Python)
+4. **Tetris**: [https://github.com/Uri46/Tetris](https://github.com/Uri46/Tetris)
+5. **DataSkins**: [https://github.com/Uri46/DataSkins](https://github.com/Uri46/DataSkins)

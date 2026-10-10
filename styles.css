@@ -386,11 +386,32 @@ h3 {
 
 .text-panel,
 .skill-card,
-.contact-form {
+.contact-form,
+.contact-panel {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: 0 16px 38px rgba(0, 0, 0, 0.22);
+}
+
+.contact-panel {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-lead {
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
 }
 
 .text-panel {

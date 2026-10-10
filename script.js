@@ -3,8 +3,6 @@ const navMenu = document.querySelector(".nav-menu");
 const navLinks = document.querySelectorAll(".nav-menu a");
 const revealItems = document.querySelectorAll(".reveal");
 const counters = document.querySelectorAll("[data-counter]");
-const contactForm = document.querySelector("#contactForm");
-const formStatus = document.querySelector("#formStatus");
 const cursorDot = document.querySelector(".cursor-dot");
 const canvas = document.querySelector("#heroCanvas");
 const ctx = canvas.getContext("2d");
@@ -84,26 +82,6 @@ window.addEventListener("scroll", () => {
     const bottom = top + section.offsetHeight;
     link.classList.toggle("active", scrollPosition >= top && scrollPosition < bottom);
   });
-});
-
-contactForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  const formData = new FormData(contactForm);
-  const name = String(formData.get("name")).trim();
-  const email = String(formData.get("email")).trim();
-  const project = String(formData.get("project")).trim();
-  const message = String(formData.get("message")).trim();
-
-  if (!name || !email || !project || !message) {
-    formStatus.textContent = "Completa todos los campos para enviar tu consulta.";
-    formStatus.style.color = "#ef4444";
-    return;
-  }
-
-  formStatus.textContent = "Mensaje preparado. Puedes conectar este formulario a EmailJS, Formspree o tu backend.";
-  formStatus.style.color = "#9cc2ff";
-  contactForm.reset();
 });
 
 window.addEventListener("pointermove", (event) => {
