@@ -1,13 +1,43 @@
-# Portafolio Profesional
+# Portafolio Web — Héctor Uriel Taño
 
-Portafolio profesional de Héctor Uriel Fernández Taño, Analista de Sistemas y Desarrollador Python / Django Jr.
+Sitio web de mi portafolio personal donde presento mi perfil como estudiante de Análisis de Sistemas, mis proyectos de programación, mi formación académica y mis certificados.
 
-- **Sitio web:** [https://uri46.github.io/Portaforio/](https://uri46.github.io/Portaforio/)
+🌐 **Sitio publicado:** [https://uri46.github.io/Portaforio/](https://uri46.github.io/Portaforio/)
 
-## Proyectos
+## Características
 
-1. **Sistema de Gestión Académica (SGA)**: [https://github.com/Uri46/sga-isft-188-public](https://github.com/Uri46/sga-isft-188-public)
-2. **Calculadora Científica**: [https://github.com/Uri46/calculadora-cientifica](https://github.com/Uri46/calculadora-cientifica)
-3. **Laberinto Python**: [https://github.com/Uri46/Laberinto_Python](https://github.com/Uri46/Laberinto_Python)
-4. **Tetris**: [https://github.com/Uri46/Tetris](https://github.com/Uri46/Tetris)
-5. **DataSkins**: [https://github.com/Uri46/DataSkins](https://github.com/Uri46/DataSkins)
+- **Diseño responsive:** Adaptable a dispositivos móviles y escritorio, con menú de navegación desplegable.
+- **Animación en Canvas:** Fondo interactivo en la sección principal con red de partículas animadas en 2D (`#heroCanvas`).
+- **Interactividad sin librerías externas:** Animaciones de aparición al hacer scroll y contadores numéricos implementados con `IntersectionObserver`, además de carrusel interactivo para visualizar certificados.
+- **Secciones incluidas:** Perfil profesional, Habilidades técnicas, Proyectos destacados, Títulos y certificaciones, Formación académica y Contacto.
+
+## Tecnologías utilizadas
+
+- **HTML5**
+- **CSS3** (Variables CSS, Flexbox, CSS Grid y diseño responsive)
+- **JavaScript Vanilla** (Canvas 2D API, IntersectionObserver API y manipulación del DOM)
+
+## Estructura del proyecto
+
+```text
+Portaforio/
+├── img/
+│   ├── proyectos/     # Capturas de los proyectos mostrados en las tarjetas
+│   └── titulos/       # Certificados en formato PDF
+├── index.html         # Estructura principal del portafolio
+├── styles.css         # Estilos, layout y diseño responsive
+├── script.js          # Lógica de partículas en Canvas, carrusel y animaciones
+└── README.md
+```
+
+## Ejecución local
+
+Al ser un sitio estático sin dependencias externas, podés abrir directamente el archivo `index.html` en cualquier navegador o levantarlo con un servidor local simple:
+
+```bash
+git clone https://github.com/Uri46/Portaforio.git
+cd Portaforio
+python -m http.server 8000
+```
+
+Luego abrí `http://localhost:8000` en el navegador.
