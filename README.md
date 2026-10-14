@@ -2,7 +2,7 @@
 
 Sitio web de mi portafolio personal donde presento mi perfil como estudiante de Análisis de Sistemas y Desarrollador Python / Django Jr, mis proyectos de programación, mi experiencia y mis certificaciones.
 
-🌐 **Sitio publicado:** [https://uri46.github.io/Portaforio/](https://uri46.github.io/Portaforio/)
+🌐 **Sitio publicado:** [https://uri46.github.io/Portafolio/](https://uri46.github.io/Portafolio/)
 
 ## Características
 
@@ -20,7 +20,8 @@ Sitio web de mi portafolio personal donde presento mi perfil como estudiante de 
 ## Estructura del proyecto
 
 ```text
-Portaforio/
+Portafolio/
+├── cv/                   # CV actualizado en formato PDF
 ├── img/
 │   ├── proyectos/        # Capturas de los proyectos mostrados en las tarjetas
 │   └── titulos/          # Certificados en formato PDF y vistas previas en PNG (previews/)
@@ -35,8 +36,8 @@ Portaforio/
 Al ser un sitio estático sin dependencias externas, podés abrir directamente el archivo `index.html` en cualquier navegador o levantarlo con un servidor local simple:
 
 ```bash
-git clone https://github.com/Uri46/Portaforio.git
-cd Portaforio
+git clone https://github.com/Uri46/Portafolio.git
+cd Portafolio
 python -m http.server 8000
 ```
 
